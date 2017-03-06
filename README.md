@@ -26,11 +26,9 @@ Pitfalls of Java benchmarks:
 * [Loop optimizations](http://hg.openjdk.java.net/code-tools/jmh/file/f2e982b7c51b/jmh-samples/src/main/java/org/openjdk/jmh/samples/JMHSample_11_Loops.java) 
 * [dead-code elimination](http://hg.openjdk.java.net/code-tools/jmh/file/f2e982b7c51b/jmh-samples/src/main/java/org/openjdk/jmh/samples/JMHSample_08_DeadCode.java)
 
-
-
 Alternatives:
  * [Google Caliper](https://github.com/google/caliper)
  
- Resources:
+Resources:
  * [JMH vs Caliper: reference thread](https://groups.google.com/forum/#!msg/mechanical-sympathy/m4opvy4xq3U/7lY8x8SvHgwJ)
  * [How do I write a correct micro-benchmark in Java?](http://stackoverflow.com/a/513259/1134312)
