@@ -1,9 +1,6 @@
 package cz.edhouse.workshop;
 
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.BenchmarkMode;
-import org.openjdk.jmh.annotations.Mode;
-import org.openjdk.jmh.annotations.OutputTimeUnit;
+import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
 import java.util.concurrent.TimeUnit;
@@ -22,7 +19,7 @@ public class FibonacciBenchmark  {
 
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
-    @OutputTimeUnit(TimeUnit.MICROSECONDS)
+    @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void testLoopFibonacci30(Blackhole blackhole){
         blackhole.consume(loopFibonacci(30));
     }

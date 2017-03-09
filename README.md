@@ -3,6 +3,7 @@
 written in Java and other languages targeting the JVM.
 * Developed by OpenJDK team
 * Provides annotation driven API to easily develop correctly designed benchmarks
+* Allows to modify behavior of compiler
 
 Hello world example:
     
